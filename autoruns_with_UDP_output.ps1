@@ -26,7 +26,7 @@
 # the scan. 
 #
 # The project is for research purposes only and is not suitable for production environments, or
-# or commercial use. Autorunsc.exe and this script should be co-located in the same directory.
+# commercial use. Autorunsc.exe and this script should be co-located in the same directory.
 # 
 # Autorunsc is property of Sysinternals (a wholly owned subsidiary of Microsoft Corporation)
 # and is available for download here: https://technet.microsoft.com/en-us/sysinternals/bb963902

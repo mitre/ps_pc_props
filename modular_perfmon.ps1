@@ -32,7 +32,7 @@
 [Switch]$Help
 )
 if ($Help) {
-    echo "Usage:`n powershell .ep bypass .\modular_perfmon.pse [process1 process2 ... processN] `n `n By default the script will use the file names listed in C:\Program Files\SplunkUniversalForwarder\etc\apps\fmx_computer_properties\local. If one or more space delimited arguments are given, the script will use the arguments as the names of the processes to be profiled."
+    echo "Usage:`n powershell -ep bypass .\modular_perfmon.pse [process1 process2 ... processN] `n `n By default the script will use the file names listed in C:\Program Files\SplunkUniversalForwarder\etc\apps\computer_properties\local. If one or more space delimited arguments are given, the script will use the arguments as the names of the processes to be profiled."
     exit
 } #>
 if ($args.count -gt 0) {

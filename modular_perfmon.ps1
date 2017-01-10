@@ -17,10 +17,10 @@
 #
 # This project is a powershell script that performs various wmi queries to collect performance
 # metrics on running processes specified as arguments or as file names in a specific directory.
-# The script outputs this information in json format and will save to a file in a specified
-# location. This script is designed to be implemented in partnership with a Splunk Universal 
-# Forwarder as a part of an app called "computer_properties". Ensure you are monitoring the
-# output directory using the batch method so that these logs do not pile up.
+# The script outputs this information in key = "value" format and will save to a file in a 
+# specified location. This script is designed to be implemented in partnership with a Splunk 
+# Universal Forwarder as a part of an app called "computer_properties". Ensure you are 
+# monitoring the output directory using the batch method so that these logs do not pile up.
 #
 # The project is for research purposes only and is not suitable for production environments, or
 # or commercial use.
